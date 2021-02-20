@@ -153,7 +153,7 @@ main {
 
 /*
 =============== 
-Counter
+Company Names
 ===============
 */
 
@@ -165,9 +165,11 @@ main {
 .container {
   text-align: center;
 }
-#value {
-  font-size: 6rem;
+#output {
+  font-size: 1rem;
   font-weight: bold;
+  color: var(--clr-red-light);
+  padding-bottom: 10px; 
 }
 .btn {
   text-transform: uppercase;
